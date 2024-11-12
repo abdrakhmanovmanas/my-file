@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<body>
+
+<h1>Простая форма</h1>
+
+<form>
+    <!-- Задание 1: Создание простой формы -->
+    <fieldset>
+        <legend>Создание простой формы</legend>
+
+        <!-- Поле для ввода имени -->
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Поле для ввода электронной почты -->
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Поле для ввода пароля -->
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Текстовое поле для комментариев -->
+        <label for="comments">Комментарии:</label>
+        <textarea id="comments" name="comments"></textarea><br><br>
+    </fieldset>
+
+    <!-- Задание 2: Поля выбора и кнопки -->
+    <fieldset>
+        <legend>Поля выбора и кнопки</legend>
+
+        <!-- Выпадающий список для выбора страны -->
+        <label for="country">Выберите страну:</label>
+        <select id="country" name="country">
+            <option value="russia">Россия</option> <!-- Опция Россия -->
+            <option value="usa">США</option>       <!-- Опция США -->
+            <option value="canada">Канада</option>  <!-- Опция Канада -->
+        </select><br><br>
+
+        <!-- Кнопка для отправки формы -->
+        <button type="submit">Отправить</button>
+
+        <!-- Кнопка для сброса всех полей формы -->
+        <button type="reset">Сбросить</button>
+    </fieldset>
+</form>
+
+</body>
+</html>
