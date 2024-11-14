@@ -1,0 +1,43 @@
+/*Задание 1: Работа с базовыми селекторами*/
+/* Селектор по ID */
+#header1 {
+   background-color: rgb(255, 0, 0);
+   text-align: center;
+}
+#header2 {
+   background-color: rgb(245, 12, 12);
+   text-align: center;
+}
+
+
+/* Селектор по тегу */
+p {
+   color: blue;
+   font-size: 16px;
+}
+
+
+/* Селектор по классу */
+.title {
+   font-size: 24px;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+
+/*Задание 2: Приоритет селекторов*/
+/* Селектор по тегу */
+h1 {
+   color: blue;
+}
+
+/* Селектор по классу */
+.main-header {
+   color: green;
+}
+
+/* Селектор по ID */
+#header {
+   color: red;
+}
