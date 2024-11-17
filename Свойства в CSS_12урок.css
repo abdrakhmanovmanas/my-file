@@ -1,0 +1,41 @@
+h1 {
+   /*color задаёт цвет текста.*/
+   color: rgb(12, 206, 80);
+   /*text-align: выравнивает текст внутри элемента.*/
+   text-align: center;
+} 
+
+h2 {
+   /*color задаёт цвет текста.*/
+   color: rgb(55, 147, 82);
+   /*margin: задает внешние отступы элемента.*/
+   margin: 50px;
+} 
+
+
+
+p {
+   /*font-size: устанавливает размер шрифта.*/
+   font-size: 50px;
+   /*font-weight: задает толщину шрифта.*/
+   font-weight: bold;
+   /*padding: задает внутренние отступы элемента.*/
+   padding: 50px;
+} 
+
+div {
+   /*background-color: устанавливает цвет фона элемента.*/
+   background-color: rgb(141, 33, 33);
+   /*width и height: задают ширину и высоту элемента.*/
+   width: 200px;
+   height: 300px;
+   /*border: задает стиль, ширину и цвет границы элемента.*/
+   border: 18px solid rgb(190, 25, 25);
+
+}
+
+
+body {
+   /*background-image: задает фоновое изображение для элемента.*/
+   background-image: url('./Снимок\ экрана\ 2024-11-07\ 170110.png');
+}
