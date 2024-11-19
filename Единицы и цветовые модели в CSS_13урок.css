@@ -1,0 +1,55 @@
+
+.box-px {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+.box-cm {
+  width: 5cm;
+  height: 5cm;
+  background-color: lightcoral;
+}
+
+
+
+.container {
+   width: 80%;
+   height: 50vh;
+   background-color: rgb(173, 139, 139);
+   margin: 0 auto;
+ }
+ .text-em {
+   font-size: 2em; 
+ }
+ .text-rem {
+   font-size: 1.5rem;    
+ }
+
+
+
+
+ .box1 {
+   /* HEX */
+background-color: #3498db; /* Синий цвет */
+}
+
+.box2 {
+/* RGB */
+background-color: rgb(52, 152, 219); /* Синий цвет */
+}
+
+.box3 {
+/* RGBA */
+background-color: rgba(52, 152, 219, 0.7); /* Полупрозрачный синий цвет */
+}
+
+.box4 {
+   width: 50%; /* Половина ширины родительского элемента */
+   height: 50%;
+   background-color: blue;
+}
+.box {
+   width: 200px; /* Половина ширины родительского элемента */
+   height: 200px;
+   background-color: #1cbd24;
+}
