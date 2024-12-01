@@ -1,0 +1,35 @@
+/* Стили для задания 1 */
+h1, p, div, img {
+   border: 1px solid black; /* Рамки для наглядности */
+   margin: 10px;
+   padding: 5px;
+}
+
+/* Стили для задания 2 */
+/* Преобразуем линейный элемент (картинку) в блочный */
+img {
+   display: block;
+   margin: 10px auto;
+}
+
+/* Преобразуем блочный элемент (абзац) в линейный */
+p {
+   display: inline;
+   background-color: lightyellow;
+}
+
+/* Стили для задания 3 */
+/* Стили для контейнера */
+div {
+   display: block;
+   border: 2px solid blue;
+   padding: 20px;
+   margin: 20px;
+   background-color: lightblue;
+}
+
+/* Преобразуем вложенные элементы в блочные */
+div > * {
+   display: block;
+   margin: 10px 0;
+}
